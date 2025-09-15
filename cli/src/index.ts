@@ -1,20 +1,22 @@
 import { select, input } from "@inquirer/prompts";
 import degit from "degit";
 
-
+type Templates = { name: string; url: string }[];
 
 (async () => {
+  const templates = await fetch(
+    "https://raw.githubusercontent.com/glitchkids/templates/refs/heads/development/templates.json"
+  )
+    .then((res) => res.json())
+    .then((r) => r as Templates);
+
   const template = await select({
     message: "Select template to import",
-    choices: [
-      {
-        name: "module-package",
-        value: "modulePacakge",
-      },
-    ],
+    choices: templates.map(({ name, url }) => ({
+      name,
+      value: url,
+    })),
   });
-  console.log(template);
-
   const toCurrentDirectory = await select({
     message: "Copy in current directory ?",
     choices: [
@@ -29,11 +31,12 @@ import degit from "degit";
     ],
   });
 
- 
   if (toCurrentDirectory) {
-    await degit("").clone('./')    
+    await degit(template).clone("./");
     process.exit(0);
   }
 
   const folderName = await input({ message: "Enter project name" });
+  await degit(template).clone("./" + folderName);
+  process.exit(0);
 })();
