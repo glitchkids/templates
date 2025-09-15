@@ -1,0 +1,10 @@
+[
+  {
+    "name": "class-diagram",
+    "url": "glitchkids/templates/templates/class-diagram-template.gk"
+  },
+  {
+    "name": "node-package",
+    "url": "glitchkids/templates/templates/node-package-template.gk"
+  }
+]

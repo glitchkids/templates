@@ -1,0 +1,15 @@
+{
+  "name": "@glitchkids-templates/class-diagram",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "mermaid-multi-file_gk"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "@glitchkids-devtools/mermaid-multi-file": "github:glitchkids/devtools#path:/dist/mermaid-multi-file.gk"
+  }
+}

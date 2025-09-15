@@ -1,0 +1,9 @@
+{
+  "name": "@glitchkids-templates/workspace",
+  "author": "Glitch Kids Softwares",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy:cli": "pnpm deploy -F @glitchkids-template/cli --force  ./dist/template-cli.gk"
+  },
+  "packageManager": "pnpm@10.12.3"
+}

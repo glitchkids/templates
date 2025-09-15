@@ -1,0 +1,23 @@
+{
+  "name": "@glitchkids-templates/package",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsdown",
+    "build:watch": "tsdown watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "@tsconfig/node24": "^24.0.1",
+    "@types/node": "^24.3.3",
+    "tsdown": "^0.15.1",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
