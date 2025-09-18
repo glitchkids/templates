@@ -1,5 +1,6 @@
 {
   "name": "@glitchkids-templates/package",
+  "author": "Glitch Kids Softwares",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -7,11 +8,9 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsdown",
-    "build:watch": "tsdown watch"
+    "build:watch": "tsdown --watch"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "packageManager": "pnpm@10.13.1",
   "devDependencies": {
     "@tsconfig/node24": "^24.0.1",
