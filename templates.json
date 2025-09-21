@@ -6,5 +6,9 @@
   {
     "name": "node-package",
     "url": "glitchkids/templates/templates/node-package-template.gk"
+  },
+  {
+    "name": "vite-svelte-daysiui-template",
+    "url": "glitchkids/templates/templates/vite-svelte-daysiui-template.gk"
   }
 ]
