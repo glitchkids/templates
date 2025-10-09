@@ -26,8 +26,10 @@
     "noUncheckedSideEffectImports": true,
 
     "paths": {
-      "@shared/*": ["./src/lib/shared/*"],
-      "@shared": ["./src/lib/shared"]
+      "@core/*": ["./src/lib/core/*"],
+      "@core": ["./src/lib/core"],
+      "@view/*": ["./src/lib/core/*"],
+      "@view": ["./src/lib/core"]
     }
   },
   "include": ["./src/**/*"]
