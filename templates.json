@@ -1,14 +1,22 @@
 [
   {
     "name": "class-diagram",
-    "url": "glitchkids/templates/templates/class-diagram-template.gk"
+    "url": "glitchkids/templates/templates/class-diagram"
   },
   {
     "name": "node-package",
-    "url": "glitchkids/templates/templates/node-package-template.gk"
+    "url": "glitchkids/templates/templates/node-package"
   },
   {
     "name": "vite-svelte-daisyui-template",
-    "url": "glitchkids/templates/templates/vite-svelte-daisyui-template.gk"
+    "url": "glitchkids/templates/templates/vite-svelte-daisyui"
+  },
+  {
+    "name": "sveltekit-unocss",
+    "url": "glitchkids/templates/templates/sveltekit-unocss"
+  },
+  {
+    "name": "sveltekit-tailwind",
+    "url": "glitchkids/templates/templates/sveltekit-tailwind"
   }
 ]
