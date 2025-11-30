@@ -35,5 +35,10 @@
 		"unocss-preset-grid": "^1.6.5",
 		"vite": "^7.2.2",
 		"vite-plugin-devtools-json": "^1.0.0"
-	}
+	},
+	 "pnpm": {
+    "overrides": {
+      "vite": "npm:rolldown-vite@latest"
+    }
+  }
 }

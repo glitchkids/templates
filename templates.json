@@ -12,6 +12,10 @@
     "url": "glitchkids/templates/templates/vite-svelte-daisyui"
   },
   {
+    "name": "vite-svelte-unocss",
+    "url": "glitchkids/templates/templates/vite-svelte-unocss"
+  },
+  {
     "name": "sveltekit-unocss",
     "url": "glitchkids/templates/templates/sveltekit-unocss"
   },
