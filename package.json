@@ -1,9 +1,23 @@
 {
-  "name": "@glitchkids-templates/workspace",
-  "author": "Glitch Kids Softwares",
-  "version": "1.0.0",
-  "scripts": {
-    "deploy:cli": "pnpm deploy -F @glitchkids-template/cli --force  ./dist/template-cli.gk"
-  },
-  "packageManager": "pnpm@10.12.3"
+	"name": "@glitchkids-templates/workspace",
+	"author": "Glitch Kids Softwares",
+	"version": "1.0.0",
+	"scripts": {
+		"deploy:cli": "pnpm deploy -F @glitchkids-template/cli --force  ./dist/template-cli.gk",
+		"format": "prettier --write .",
+		"lint": "prettier --check . && eslint ."
+	},
+	"packageManager": "pnpm@10.12.3",
+	"devDependencies": {
+		"@eslint/compat": "^1.4.0",
+		"@eslint/js": "^9.39.1",
+		"@types/node": "^24",
+		"eslint": "^9.39.1",
+		"eslint-config-prettier": "^10.1.8",
+		"eslint-plugin-svelte": "^3.13.0",
+		"globals": "^16.5.0",
+		"prettier": "^3.6.2",
+		"prettier-plugin-svelte": "^3.4.0",
+		"typescript-eslint": "^8.47.0"
+	}
 }

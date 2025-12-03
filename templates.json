@@ -1,26 +1,34 @@
-[
-  {
-    "name": "class-diagram",
-    "url": "glitchkids/templates/templates/class-diagram"
-  },
-  {
-    "name": "node-package",
-    "url": "glitchkids/templates/templates/node-package"
-  },
-  {
-    "name": "vite-svelte-daisyui",
-    "url": "glitchkids/templates/templates/vite-svelte-daisyui"
-  },
-  {
-    "name": "vite-svelte-unocss",
-    "url": "glitchkids/templates/templates/vite-svelte-unocss"
-  },
-  {
-    "name": "sveltekit-unocss",
-    "url": "glitchkids/templates/templates/sveltekit-unocss"
-  },
-  {
-    "name": "sveltekit-tailwind",
-    "url": "glitchkids/templates/templates/sveltekit-tailwind"
-  }
-]
+{
+	"templates": [
+		{
+			"name": "class-diagram",
+			"url": "glitchkids/templates/templates/class-diagram"
+		},
+		{
+			"name": "node-package",
+			"url": "glitchkids/templates/templates/node-package"
+		},
+		{
+			"name": "vite-svelte-daisyui",
+			"url": "glitchkids/templates/templates/vite-svelte-daisyui"
+		},
+		{
+			"name": "vite-svelte-unocss",
+			"url": "glitchkids/templates/templates/vite-svelte-unocss"
+		},
+		{
+			"name": "sveltekit-unocss",
+			"url": "glitchkids/templates/templates/sveltekit-unocss"
+		},
+		{
+			"name": "sveltekit-tailwind",
+			"url": "glitchkids/templates/templates/sveltekit-tailwind"
+		}
+	],
+	"components": [
+		{
+			"name": "svelte-is-visible",
+			"url": "glitchkids/templates/components/svelte/src/lib/is-visible"
+		}
+	]
+}
