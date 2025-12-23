@@ -7,9 +7,8 @@
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsdown",
-    "build:copy": "tsx build.ts",
-    "build:watch": "tsdown --watch"
+    "build": "vite build",
+    "build:watch": "vite build --watch --mode development"
   },
   "license": "MIT",
   "packageManager": "pnpm@10.13.1",
