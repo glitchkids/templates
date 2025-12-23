@@ -23,6 +23,10 @@
 		{
 			"name": "sveltekit-tailwind",
 			"url": "glitchkids/templates/templates/sveltekit-tailwind"
+		},
+		{
+			"name": "obsidian-plugin-svelte",
+			"url": "glitchkids/templates/templates/obsidian-plugin-svelte"
 		}
 	],
 	"components": [

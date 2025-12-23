@@ -1,0 +1,11 @@
+{
+	"id": "glitchkids-obsidian-sample-plugin",
+	"name": "Glitch Kids Obsidian Sample Plugin",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Sample plugin for Obsidian.",
+	"author": "Glitch Kids Softwares",
+	"authorUrl": "https://glitchkids.space",
+	"fundingUrl": "https://glitchkids.space",
+	"isDesktopOnly": false
+}

@@ -8,6 +8,9 @@ import {
 } from 'unocss';
 
 export default defineConfig({
+	content: {
+		filesystem: ['**/*.{svelte}']
+	},
 	theme: {
 		colors: {
 			'primary-black': 'hsl(0, 0%, 11%)',

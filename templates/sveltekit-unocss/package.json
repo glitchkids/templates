@@ -33,12 +33,7 @@
 		"unocss": "^66.5.9",
 		"unocss-preset-fluid-sizing": "1.0.0-beta.52",
 		"unocss-preset-grid": "^1.6.5",
-		"vite": "^7.2.2",
+		"vite": "^8.0.0-beta.4",
 		"vite-plugin-devtools-json": "^1.0.0"
-	},
-	 "pnpm": {
-    "overrides": {
-      "vite": "npm:rolldown-vite@latest"
-    }
-  }
+	}
 }

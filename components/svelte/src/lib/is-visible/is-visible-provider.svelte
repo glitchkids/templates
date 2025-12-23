@@ -5,7 +5,7 @@
 	import { createSubscriber } from 'svelte/reactivity';
 	import { innerWidth, innerHeight } from 'svelte/reactivity/window';
 
-	interface IsVisibleContext {
+	export interface IsVisibleContext {
 		attachement: (provider: IsVisibleProvider) => (node: HTMLElement) => void;
 		provider: IsVisibleProvider;
 	}
