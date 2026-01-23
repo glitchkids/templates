@@ -4,69 +4,18 @@ import {
   presetWind4,
   presetWebFonts,
   transformerDirectives,
-  type Preset,
 } from "unocss";
 
-function presetGlitchKidsMasterGrid({
-  paddingX = 1.5,
-  maxContainerWidth = 80,
-}) {
-  return {
-    name: "unocss-preset-glitchkids-master-grid",
-    rules: [
-      [
-        /master-grid-(\d+)/,
-        ([_, colNumber], { variantHandlers, variantMatch, variants }) => {
-          console.log(colNumber);
-          return {
-            display: "grid",
-            "grid-template-columns": `
-              minmax(${paddingX}rem, 1fr) 
-              repeat(${colNumber}, minmax(0, calc(${maxContainerWidth}rem / ${colNumber}))) 
-              minmax(${paddingX}rem, 1fr)`,
-          };
-        },
-      ],
-      [
-        "master-grid-container",
-        {
-          display: "grid",
-          "grid-template-columns": "subgrid",
-          "grid-column": "1 / -1",
-        },
-      ],
-      [
-        "master-grid-subgrid-container",
-        {
-          display: "grid",
-          "grid-template-columns": "subgrid",
-          "grid-column": "1 / -1",
-        },
-      ],
-      [
-        "master-grid-subgrid",
-        {
-          display: "grid",
-          "grid-template-columns": "subgrid",
-          "grid-column": "2 / -2",
-          "column-gap": "24px",
-        },
-      ],
-      [
-        "master-grid-container-full",
-        {
-          "grid-column": "2 / -2",
-        },
-      ],
-    ],
-  } satisfies Preset;
-}
+import { presetGlitchKidsMasterFluid } from "./.unocss/master-fluid-preset";
+import { presetGlitchKidsMasterGrid } from "./.unocss/master-grid-presets";
 
 export default defineConfig({
   theme: {
     colors: {
-      "primary-black": "hsl(0, 0%, 11%)",
-      "primary-white": "hsl(0, 0%, 89%)",
+      primary: {
+        black: "hsl(0, 0%, 11%)",
+        white: "hsl(0, 0%, 89%)",
+      },
     },
   },
   presets: [
@@ -80,7 +29,7 @@ export default defineConfig({
     }),
     presetWind4(),
     presetIcons(),
-    presetGlitchKidsFluid({}),
+    presetGlitchKidsMasterFluid({}),
     presetGlitchKidsMasterGrid({}),
   ],
   transformers: [transformerDirectives()],
