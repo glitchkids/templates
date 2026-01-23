@@ -1,6 +1,10 @@
 {
   "templates": [
     {
+      "name": "astro-sveltia-unocss",
+      "url": "glitchkids/templates/templates/astro-sveltia-unocss"
+    },
+    {
       "name": "class-diagram",
       "url": "glitchkids/templates/templates/class-diagram"
     },
