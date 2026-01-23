@@ -17,8 +17,6 @@
     "svelte-check": "^4.3.1",
     "typescript": "~5.8.3",
     "unocss": "^66.5.9",
-    "unocss-preset-fluid-sizing": "1.0.0-beta.52",
-    "unocss-preset-grid": "^1.6.5",
     "vite": "^8.0.0-beta.4",
     "vite-plugin-singlefile": "^2.3.0"
   }

@@ -31,8 +31,6 @@
 		"typescript": "^5.9.3",
 		"typescript-eslint": "^8.47.0",
 		"unocss": "^66.5.9",
-		"unocss-preset-fluid-sizing": "1.0.0-beta.52",
-		"unocss-preset-grid": "^1.6.5",
 		"vite": "^8.0.0-beta.4",
 		"vite-plugin-devtools-json": "^1.0.0"
 	}
