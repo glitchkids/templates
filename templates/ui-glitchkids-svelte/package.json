@@ -1,5 +1,5 @@
 {
-	"name": "svelte-is-visible",
+	"name": "@glitchkids-components/svelte",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
@@ -51,15 +51,14 @@
 		"svelte-check": "^4.3.4",
 		"typescript": "^5.9.3",
 		"typescript-eslint": "^8.47.0",
-		"vite": "^7.2.2",
+		"unocss": "^66.5.9",
+		"vite": "^8.0.0-beta.5",
 		"vite-plugin-devtools-json": "^1.0.0"
 	},
 	"keywords": [
 		"svelte"
 	],
-	"pnpm": {
-		"overrides": {
-			"vite": "pnpm:rolldown-vite@latest"
-		}
+	"dependencies": {
+		"@ark-ui/svelte": "^5.15.0"
 	}
 }

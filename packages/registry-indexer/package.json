@@ -1,0 +1,26 @@
+{
+  "name": "@glitchkids-templates/registry-indexer",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Glitch Kids Softwares",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "tsx src/cli.ts",
+    "build": "tsdown",
+    "build:watch": "tsdown --watch"
+  },
+  "dependencies": {
+    "tinyglobby": "^0.2.15"
+  },
+  "devDependencies": {
+    "@tsconfig/node24": "^24.0.1",
+    "@types/node": "^24.11.1",
+    "tsdown": "^0.15.1",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  },
+  "packageManager": "pnpm@10.13.1"
+}
