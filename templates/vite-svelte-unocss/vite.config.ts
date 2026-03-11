@@ -10,7 +10,9 @@ export default defineConfig({
   plugins: [UnoCSS(), svelte(), viteSingleFile()],
   resolve: {
     alias: {
-      "@lib": path.resolve(__dirname, "src/lib"),
+      "@features": path.resolve(__dirname, "src/lib/features"),
+      "@app": path.resolve(__dirname, "src/lib/app"),
+      "@shared": path.resolve(__dirname, "src/lib/shared"),
     },
   },
 });

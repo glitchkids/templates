@@ -4,22 +4,25 @@
   "description": "",
   "license": "MIT",
   "author": "Glitch Kids Softwares",
+  "bin": "dist/cli.js",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "start": "tsx src/cli.ts",
+    "start:cli": "node dist/cli.js",
+    "dev:cli": "tsx src/cli/index.ts",
     "build": "tsdown",
     "build:watch": "tsdown --watch"
   },
   "dependencies": {
+    "@inquirer/prompts": "^8.3.0",
     "tinyglobby": "^0.2.15"
   },
   "devDependencies": {
-    "@tsconfig/node24": "^24.0.1",
-    "@types/node": "^24.11.1",
-    "tsdown": "^0.15.1",
-    "tsx": "^4.20.5",
+    "@tsconfig/node24": "^24.0.4",
+    "@types/node": "^24.12.0",
+    "tsdown": "^0.21.0",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.2"
   },
   "packageManager": "pnpm@10.13.1"

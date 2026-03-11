@@ -1,4 +1,4 @@
-const ignore = ["node_modules", "**/.env"];
+const ignore = ["node_modules", "**/.env", "dist"];
 
 export default {
   input: {

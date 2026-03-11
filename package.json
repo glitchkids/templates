@@ -6,7 +6,7 @@
     "deploy:cli": "pnpm deploy -F @glitchkids-template/cli --force  ./dist/cli",
     "format": "prettier --write .",
     "lint": "prettier --check . && eslint .",
-    "cli:index": "pnpm tsx packages/registry-indexer/src/cli.ts"
+    "cli:index": "pnpm tsx registry-indexer/src/cli/index.ts"
   },
   "devDependencies": {
     "@eslint/compat": "^1.4.0",

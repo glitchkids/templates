@@ -1,0 +1,23 @@
+{
+  "input": {
+    "files": [],
+    "folders": [
+      {
+        "name": "Modules/Node",
+        "path": "./templates/node-package",
+        "ignores": {
+          "files": [".env"],
+          "folders": ["node_modules", "dist"]
+        }
+      },
+      {
+        "name": "Front/Vite-Svelte-UnoCSS",
+        "path": "./templates/vite-svelte-unocss",
+        "ignores": {
+          "files": [".env"],
+          "folders": ["node_modules", "dist"]
+        }
+      }
+    ]
+  }
+}
