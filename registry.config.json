@@ -11,6 +11,14 @@
         }
       },
       {
+        "name": "Front/Astro-Sveltia-UnoCSS",
+        "path": "./templates/astro-sveltia-unocss",
+        "ignores": {
+          "files": [".env"],
+          "folders": ["node_modules", "dist"]
+        }
+      },
+      {
         "name": "Front/Vite-Svelte-UnoCSS",
         "path": "./templates/vite-svelte-unocss",
         "ignores": {

@@ -1,22 +1,25 @@
-[
-	{
-		"path": "./.gitignore",
-		"content": "node_modules\ndist\nbuild"
-	},
-	{
-		"path": "./glitchkids.config.ts",
-		"content": ""
-	},
-	{
-		"path": "./package.json",
-		"content": "{\n  \"name\": \"@glitchkids-templates/package\",\n  \"author\": \"Glitch Kids Softwares\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"type\": \"module\",\n  \"types\": \"dist/index.d.ts\",\n  \"main\": \"dist/index.js\",\n  \"scripts\": {\n    \"build\": \"tsdown\",\n    \"build:watch\": \"tsdown --watch\"\n  },\n  \"license\": \"MIT\",\n  \"packageManager\": \"pnpm@10.13.1\",\n  \"devDependencies\": {\n    \"@tsconfig/node24\": \"^24.0.1\",\n    \"@types/node\": \"^24.3.3\",\n    \"tsdown\": \"^0.15.1\",\n    \"tsx\": \"^4.20.5\",\n    \"typescript\": \"^5.9.2\"\n  }\n}\n"
-	},
-	{
-		"path": "./src/index.ts",
-		"content": ""
-	},
-	{
-		"path": "./tsconfig.json",
-		"content": "{\n  \"extends\": \"@tsconfig/node24/tsconfig.json\",\n  \"compilerOptions\": {\n    \"moduleResolution\": \"bundler\",\n    \"module\": \"esnext\",\n\n    \"paths\": {\n      \"@\": [\"./src\"],\n      \"@/*\": [\"./src/*\"]\n    }\n  }\n}\n"
-	}
-]
+{
+	"Name": "Modules/Node",
+	"Files": [
+		{
+			"path": "./.gitignore",
+			"content": "node_modules\ndist\nbuild"
+		},
+		{
+			"path": "./glitchkids.config.ts",
+			"content": ""
+		},
+		{
+			"path": "./package.json",
+			"content": "{\n  \"name\": \"@glitchkids-templates/package\",\n  \"author\": \"Glitch Kids Softwares\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"type\": \"module\",\n  \"types\": \"dist/index.d.ts\",\n  \"main\": \"dist/index.js\",\n  \"scripts\": {\n    \"build\": \"tsdown\",\n    \"build:watch\": \"tsdown --watch\"\n  },\n  \"license\": \"MIT\",\n  \"packageManager\": \"pnpm@10.13.1\",\n  \"devDependencies\": {\n    \"@tsconfig/node24\": \"^24.0.1\",\n    \"@types/node\": \"^24.3.3\",\n    \"tsdown\": \"^0.15.1\",\n    \"tsx\": \"^4.20.5\",\n    \"typescript\": \"^5.9.2\"\n  }\n}\n"
+		},
+		{
+			"path": "./src/index.ts",
+			"content": ""
+		},
+		{
+			"path": "./tsconfig.json",
+			"content": "{\n  \"extends\": \"@tsconfig/node24/tsconfig.json\",\n  \"compilerOptions\": {\n    \"moduleResolution\": \"bundler\",\n    \"module\": \"esnext\",\n\n    \"paths\": {\n      \"@\": [\"./src\"],\n      \"@/*\": [\"./src/*\"]\n    }\n  }\n}\n"
+		}
+	]
+}

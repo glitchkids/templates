@@ -9,7 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.16.8",
-    "unocss": "^66.5.12"
+    "astro": "^6.0.8",
+    "unocss": "^66.6.7"
   }
 }
