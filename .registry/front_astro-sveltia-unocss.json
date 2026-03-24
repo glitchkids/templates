@@ -27,7 +27,7 @@
 		},
 		{
 			"path": "./package.json",
-			"content": "{\n  \"name\": \"astro-sveltia-unocss\",\n  \"type\": \"module\",\n  \"version\": \"0.0.1\",\n  \"scripts\": {\n    \"dev\": \"astro dev\",\n    \"build\": \"astro build\",\n    \"preview\": \"astro preview\",\n    \"astro\": \"astro\"\n  },\n  \"dependencies\": {\n    \"astro\": \"^6.0.8\",\n    \"unocss\": \"^66.6.7\"\n  }\n}"
+			"content": "{\n  \"name\": \"astro-sveltia-unocss\",\n  \"type\": \"module\",\n  \"version\": \"0.0.1\",\n  \"scripts\": {\n    \"dev\": \"astro dev\",\n    \"build\": \"astro build\",\n    \"preview\": \"astro preview\",\n    \"astro\": \"astro\"\n  },\n  \"dependencies\": {\n    \"astro\": \"^6.0.8\",\n    \"unocss\": \"^66.6.7\",\n    \"@unocss/astro\": \"^66.6.7\"\n  }\n}\n"
 		},
 		{
 			"path": "./pnpm-lock.yaml",
